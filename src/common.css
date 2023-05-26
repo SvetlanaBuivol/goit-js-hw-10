@@ -14,10 +14,28 @@ body {
 
 img {
     display: block;
-    max-width: 50%;
+    max-width: 60%;
 }
 
 .cat-info {
     display: flex;
     gap: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color: aliceblue;
+    box-shadow: 15px 14px 43px -9px rgba(0, 0, 0, 0.75);;
 }
+
+.breed-select {
+    margin-bottom: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.is-hidden {
+    display: none;
+}
+
